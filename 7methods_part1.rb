@@ -9,17 +9,17 @@ end
 greeting(name)
 puts '__________________________________________'
 
-def greeting_company
+def greeting_company()
     puts 'Hello, Umbrella'
 end
 
 def greetings
     name = 'Alex Wesker'
-    greeting_company
+    greeting_company()
     greeting(name)
 end
 
-greetings # В этой функции вызываются две функции определнные выше
+greetings() # В этой функции вызываются две функции определнные выше
 
 
 
