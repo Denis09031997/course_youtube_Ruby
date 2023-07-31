@@ -2,7 +2,7 @@
 
 # Именнованые агрументы пишутся в конце
 
-def division(name, age = nil, weight = 90)
+def division(name, age = nil , weight = 90) # nil - значение по умолчанию пусто, если указать, то ничего не выведется
   puts "My name is #{name}"
   puts "My age = #{age}"    
   puts "My weight = #{weight}"
